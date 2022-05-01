@@ -40,7 +40,7 @@ if __name__ == '__main__':
     root = Tk()
     root.geometry('400x500')
     root.resizable(False,False)
-    root.iconbitmap('assets/todo.ico')
+    root.iconbitmap('todo.ico')
     root.title('  ****** Todo List By Me *******  ')
     app = App(root)
     root.mainloop()
